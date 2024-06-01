@@ -70,7 +70,6 @@ a {
     align-self: center ;
     flex-direction: row;
     border-radius: 10px;
-
 }
 
 button  {   
@@ -87,4 +86,37 @@ button  {
     padding-top: 8px;
     padding-bottom: 8px;
     width: fit-content;
+}
+
+.ibody  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 400px;
+    margin-top: 25px;
+}
+
+.iheading   {
+    font-size: 36px;
+    color: #1f2937;    
+    font-weight: bolder;
+}
+
+.icontent   {
+    margin-top: 24px;
+    gap: 64px;
+    display: flex;
+    flex-direction: row;
+}
+
+.isection   {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    flex: 0 1 auto;
+    text-align: center;
+}
+
+.iimg   {
+    border-radius: 10px
 }

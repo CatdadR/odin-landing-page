@@ -8,15 +8,14 @@ body {
 .header {
     display: flex;
     align-items: center;
-    padding-inline: 200px;
+    padding-inline: 400px;
     background-color: #1F2937;
     margin: 0;
 }
 
-.header, h1{
+.header .footerheader{
     display: flex;
     flex: 1;
-    gap: 16px;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 24px;
@@ -24,8 +23,68 @@ body {
 
 
 a {
+    margin: 8px;
     font-size: 18px;
     color: #e5e5e5;
     font-weight: 600;
     text-decoration: none;
+}
+
+.hbody  {
+    display: flex;
+    background-color: #1F2937;
+    padding-inline: 400px;
+}
+
+
+.hcontent   {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.heroheading    {
+    display: flex;
+    width: 350px;
+    font-size: 48px;    
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.herosubtext   {
+    display: flex;
+    margin-top: 4px;
+    width: 400px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #e5e5e5;
+}
+
+.heroimg    {
+    display: flex;
+    flex: 0 1 auto;
+    align-self: center ;
+    flex-direction: row;
+    border-radius: 10px;
+
+}
+
+button  {   
+    text-align: center;
+    
+    font-size: 14px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+    border-style: none;
+    background-color: #3888f6;
+    border-radius: 10px;
+    padding-inline: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: fit-content;
 }
